@@ -3,7 +3,7 @@ package idealized.scala
 object ideal {
 	val a4 = new Succ(new Succ(new Succ(new Succ(Zero))))
 	val an8 = a4 +(a4)
-	println(a4)
+	println(a4 )
 }
 
 abstract class Booleano {
